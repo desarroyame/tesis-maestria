@@ -10,8 +10,7 @@
 
 ---
 
-#### Tesis presentada a la Facultad de Artes y Humanidades  
-de la Universidad de Caldas, en cumplimiento parcial de los requisitos para el grado de **Magister en Diseño y Creación Interactiva**
+Tesis presentada a la Facultad de Artes y Humanidades de la Universidad de Caldas, en cumplimiento parcial de los requisitos para el grado de **Magister en Diseño y Creación Interactiva**
 
 ---
 
