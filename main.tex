@@ -1,0 +1,82 @@
+\documentclass[Times,12pt,oneside,openany,print,index]{report}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\pagestyle{plain}
+
+\usepackage{graphicx}
+\graphicspath{/images}
+\usepackage{caption}
+\usepackage{array}
+
+\usepackage[nottoc]{tocbibind}
+
+\usepackage[normalem]{ulem}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=black,
+    citecolor=black,
+}
+\urlstyle{same}
+
+\usepackage{microtype}
+
+\setlength{\parindent}{0em}
+
+\usepackage[backend=biber,style=authoryear,sorting=ynt]{biblatex}
+\addbibresource{bibliography/references.bib}
+
+\let\cleardoublepage=\clearpage
+
+\begin{document}
+
+\thispagestyle{empty}
+\input{core/titlepage}
+\cleardoublepage
+
+\pagenumbering{roman}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Declaración de ética}
+\input{core/ethics_statement}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Resúmen}
+\input{core/abstract}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Dedicatoria}
+\input{core/dedication}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Licencia}
+\input{core/license}
+
+\listoffigures
+\listoftables   
+
+\renewcommand{\contentsname}{Tabla de contenidos}
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Tabla de contenidos}
+\tableofcontents
+
+\pagenumbering{arabic}
+
+\chapter{Conceptualización del problema}
+\input{chapters/chapter_1.tex}
+
+\chapter{Marco teórico}
+\input{chapters/chapter_2.tex}
+
+\phantomsection
+\printbibliography
+\addcontentsline{toc}{chapter}{Bibliografía}
+
+\end{document}

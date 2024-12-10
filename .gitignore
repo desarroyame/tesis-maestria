@@ -1,0 +1,46 @@
+# LaTeX intermediate and output files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Bibliography files
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# Editor backup files
+*~
+*.bak
+*.swp
+*.tmp
+
+.env
+.DS_Store
+.vscode/*
+build/*
+
+# Ignorar archivos del sistema LaTeX en el directorio docs
+docs/*.aux
+docs/*.bbl
+docs/*.bcf
+docs/*.blg
+docs/*.log
+docs/*.out
+docs/*.run.xml
+docs/*.toc
+docs/*.lof
+docs/*.lot
+docs/*.fls
+docs/*.fdb_latexmk
+
+draft/*
