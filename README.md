@@ -1,6 +1,6 @@
 
 
-## **Significación social y supervivencia simbólica en la producción de imagen artística sobre la resistencia y crisis del Hospital San Juan de Dios, Bogotá, 2000-2015**
+## **Significación social y supervivencia simbólica en la producción de imagen artística sobre la resistencia y crisis del Hospital San Juan de Dios, Bogotá, 2007-2017**
 
 
 
