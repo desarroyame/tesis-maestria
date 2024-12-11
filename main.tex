@@ -7,7 +7,7 @@
 \pagestyle{plain}
 
 \usepackage{graphicx}
-\graphicspath{/images}
+\graphicspath{{./images/}}
 \usepackage{caption}
 \usepackage{array}
 
@@ -33,6 +33,10 @@
 \addbibresource{bibliography/references.bib}
 
 \let\cleardoublepage=\clearpage
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\small}
+\captionsetup[figure]{font=footnotesize}
 
 \begin{document}
 
@@ -74,6 +78,9 @@
 
 \chapter{Marco teórico}
 \input{chapters/chapter_2.tex}
+
+\chapter{Metodología}
+\input{chapters/chapter_3.tex}
 
 \phantomsection
 \printbibliography
