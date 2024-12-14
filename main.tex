@@ -46,6 +46,7 @@
 \cleardoublepage
 
 \pagenumbering{roman}
+\setcounter{page}{1}
 
 \phantomsection
 \addcontentsline{toc}{chapter}{Declaración de ética}
@@ -63,16 +64,15 @@
 \addcontentsline{toc}{chapter}{Licencia}
 \input{core/license}
 
-\listoffigures
-\listoftables   
-
 \renewcommand{\contentsname}{Tabla de contenidos}
 \cleardoublepage
 \phantomsection
 \addcontentsline{toc}{chapter}{Tabla de contenidos}
 \tableofcontents
+\newpage
 
 \pagenumbering{arabic}
+\setcounter{page}{1}
 
 \chapter{Conceptualización del problema}
 \input{chapters/chapter_1.tex}
@@ -86,6 +86,15 @@
 \chapter{Patrones simbólicos en crisis}
 \input{chapters/chapter_4.tex}
 
+\chapter{Cinco}
+\input{chapters/chapter_5.tex}
+
+\chapter{Seis}
+\input{chapters/chapter_6.tex}
+
+\listoffigures
+\listoftables   
+
 \phantomsection
 \addcontentsline{toc}{chapter}{Bibliografía}
 \printbibliography[title={Bibliografía}, nottype=online]
@@ -93,5 +102,15 @@
 \phantomsection
 \addcontentsline{toc}{chapter}{Videografía}
 \printbibliography[title={Videografía}, type=online]
+
+\chapter*{}
+
+\begin{figure}[h!]
+    \thispagestyle{empty}
+    \captionsetup{labelformat=empty}
+    \centering
+    \includegraphics[width=0.3\textwidth]{qr_jcarroyos_research.png}
+    \caption{QR al sitio web del proyecto \href{https://jcarroyos.art/docs/research/hsjd}{jcarroyos.art/hsjd}}
+\end{figure}
 
 \end{document}
