@@ -30,7 +30,8 @@
 \setlength{\parindent}{0em}
 
 \usepackage[backend=biber,style=authoryear,sorting=ynt]{biblatex}
-\addbibresource{bibliography/references.bib}
+\addbibresource{references/bibliography.bib}
+\addbibresource{references/videography.bib}
 
 \let\cleardoublepage=\clearpage
 
@@ -82,8 +83,15 @@
 \chapter{Metodología}
 \input{chapters/chapter_3.tex}
 
+\chapter{Patrones simbólicos en crisis}
+\input{chapters/chapter_4.tex}
+
 \phantomsection
-\printbibliography
 \addcontentsline{toc}{chapter}{Bibliografía}
+\printbibliography[title={Bibliografía}, nottype=online]
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Videografía}
+\printbibliography[title={Videografía}, type=online]
 
 \end{document}

@@ -1,0 +1,787 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global/global}
+    \entry{Deleuze1985}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=01e8c4f353d8f2d65f9f05ee78f50c8c}{%
+           family={Deleuze},
+           familyi={D\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Paidós}%
+      }
+      \strng{namehash}{01e8c4f353d8f2d65f9f05ee78f50c8c}
+      \strng{fullhash}{01e8c4f353d8f2d65f9f05ee78f50c8c}
+      \strng{fullhashraw}{01e8c4f353d8f2d65f9f05ee78f50c8c}
+      \strng{bibnamehash}{01e8c4f353d8f2d65f9f05ee78f50c8c}
+      \strng{authorbibnamehash}{01e8c4f353d8f2d65f9f05ee78f50c8c}
+      \strng{authornamehash}{01e8c4f353d8f2d65f9f05ee78f50c8c}
+      \strng{authorfullhash}{01e8c4f353d8f2d65f9f05ee78f50c8c}
+      \strng{authorfullhashraw}{01e8c4f353d8f2d65f9f05ee78f50c8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{La imagen-tiempo Estudios sobre cine 2}
+      \field{year}{1985}
+    \endentry
+    \entry{BuckMorss1989}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1ae94946d28db383b62f9aef8fdaa2bd}{%
+           family={Buck-Morss},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=c66787909ed6b1c8f8eb9285fa7f3937}{%
+           family={Rabotnikof},
+           familyi={R\bibinitperiod},
+           given={Nuria},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Gráficas Rogar, S.A.}%
+      }
+      \strng{namehash}{1ae94946d28db383b62f9aef8fdaa2bd}
+      \strng{fullhash}{1ae94946d28db383b62f9aef8fdaa2bd}
+      \strng{fullhashraw}{1ae94946d28db383b62f9aef8fdaa2bd}
+      \strng{bibnamehash}{1ae94946d28db383b62f9aef8fdaa2bd}
+      \strng{authorbibnamehash}{1ae94946d28db383b62f9aef8fdaa2bd}
+      \strng{authornamehash}{1ae94946d28db383b62f9aef8fdaa2bd}
+      \strng{authorfullhash}{1ae94946d28db383b62f9aef8fdaa2bd}
+      \strng{authorfullhashraw}{1ae94946d28db383b62f9aef8fdaa2bd}
+      \strng{translatorbibnamehash}{c66787909ed6b1c8f8eb9285fa7f3937}
+      \strng{translatornamehash}{c66787909ed6b1c8f8eb9285fa7f3937}
+      \strng{translatorfullhash}{c66787909ed6b1c8f8eb9285fa7f3937}
+      \strng{translatorfullhashraw}{c66787909ed6b1c8f8eb9285fa7f3937}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dialéctica de la mirada. Walter Benjamin y el proyecto de los Pasajes}
+      \field{year}{1989}
+    \endentry
+    \entry{Romero1994}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=15f59ad3ae39cd1f9ea0834d03b0036d}{%
+           family={Martha\bibnamedelimb C.\bibnamedelimi Romero\bibnamedelima Isaza},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={Margarita\bibnamedelimb Zambrano\bibnamedelima Caicedo},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9aa3cf12707608ea5741bdbb2facffb4}{%
+           family={Cárdenas},
+           familyi={C\bibinitperiod},
+           given={María\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b1143b0e509c037cb7d853f8e5b9e66}
+      \strng{fullhash}{9b1143b0e509c037cb7d853f8e5b9e66}
+      \strng{fullhashraw}{9b1143b0e509c037cb7d853f8e5b9e66}
+      \strng{bibnamehash}{9b1143b0e509c037cb7d853f8e5b9e66}
+      \strng{authorbibnamehash}{9b1143b0e509c037cb7d853f8e5b9e66}
+      \strng{authornamehash}{9b1143b0e509c037cb7d853f8e5b9e66}
+      \strng{authorfullhash}{9b1143b0e509c037cb7d853f8e5b9e66}
+      \strng{authorfullhashraw}{9b1143b0e509c037cb7d853f8e5b9e66}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de la Facultad de Medicina de la Universidad Nacional de Colombia}
+      \field{number}{3}
+      \field{title}{Historia del Hospital San Juan de Dios de Bogotá}
+      \field{volume}{42}
+      \field{year}{1994}
+      \field{pages}{166\bibrangedash 169}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://issuu.com/patrimoniobogota/docs/hospital_san_juan_de_dios_/3
+      \endverb
+      \verb{url}
+      \verb https://issuu.com/patrimoniobogota/docs/hospital_san_juan_de_dios_/3
+      \endverb
+    \endentry
+    \entry{Capra1998}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=066b26412a4f04eb205c119fd5ce911f}{%
+           family={Capra},
+           familyi={C\bibinitperiod},
+           given={Fritjof},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58c5fcf896a973f9b56fe6019693d7ac}{%
+           family={Sempau},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {spa}%
+      }
+      \list{location}{1}{%
+        {Barcelona}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Anagrama,}%
+      }
+      \strng{namehash}{efe275eefb61ecdb703a23445073d4f9}
+      \strng{fullhash}{efe275eefb61ecdb703a23445073d4f9}
+      \strng{fullhashraw}{efe275eefb61ecdb703a23445073d4f9}
+      \strng{bibnamehash}{efe275eefb61ecdb703a23445073d4f9}
+      \strng{authorbibnamehash}{efe275eefb61ecdb703a23445073d4f9}
+      \strng{authornamehash}{efe275eefb61ecdb703a23445073d4f9}
+      \strng{authorfullhash}{efe275eefb61ecdb703a23445073d4f9}
+      \strng{authorfullhashraw}{efe275eefb61ecdb703a23445073d4f9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{La trama de la vida : una nueva perspectiva de los sistemas vivos /}
+      \field{edition}{2a. ed.}
+      \field{isbn}{8433905546}
+      \field{series}{Colección argumentos ; 204}
+      \field{title}{La trama de la vida : una nueva perspectiva de los sistemas vivos / Fritjof Capra ; traducción de David Sempau.}
+      \field{year}{1999}
+      \keyw{Sistemas biológicos ; Ecología ; Teoría de sistemas ; Biología ; Dinámica de redes}
+    \endentry
+    \entry{Benjamin2004}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5d39b16d16760e0e4573a45fc6f9f97}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Itaca}%
+      }
+      \strng{namehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{bibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorbibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authornamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El autor como productor}
+      \field{year}{2004}
+    \endentry
+    \entry{Guasch2005}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ac8f9a0d26be5feff58342e44cf18f9}{%
+           family={Guasch},
+           familyi={G\bibinitperiod},
+           given={Anna\bibnamedelima Maria},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{fullhash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{fullhashraw}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{bibnamehash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{authorbibnamehash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{authornamehash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{authorfullhash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{authorfullhashraw}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RACO, REVISTES CATALANES AMB ACCÉS OBERT}
+      \field{title}{LOS LUGARES DE LA MEMORIA: EL ARTE DE ARCHIVAR Y RECORDAR}
+      \field{year}{2005}
+      \field{pages}{157\bibrangedash 183}
+      \range{pages}{27}
+    \endentry
+    \entry{Manovich2005}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c331d4d18add8b45bac3f8e619face7}{%
+           family={Manovich},
+           familyi={M\bibinitperiod},
+           given={Lev},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Paidós}%
+      }
+      \strng{namehash}{6c331d4d18add8b45bac3f8e619face7}
+      \strng{fullhash}{6c331d4d18add8b45bac3f8e619face7}
+      \strng{fullhashraw}{6c331d4d18add8b45bac3f8e619face7}
+      \strng{bibnamehash}{6c331d4d18add8b45bac3f8e619face7}
+      \strng{authorbibnamehash}{6c331d4d18add8b45bac3f8e619face7}
+      \strng{authornamehash}{6c331d4d18add8b45bac3f8e619face7}
+      \strng{authorfullhash}{6c331d4d18add8b45bac3f8e619face7}
+      \strng{authorfullhashraw}{6c331d4d18add8b45bac3f8e619face7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El lenguaje de los nuevos medios de comunicación: la imagen en la nueva era digital}
+      \field{year}{2005}
+    \endentry
+    \entry{Abril2007}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=591b522d7625237b02833f38d690007d}{%
+           family={Abril},
+           familyi={A\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Síntesis}%
+      }
+      \strng{namehash}{591b522d7625237b02833f38d690007d}
+      \strng{fullhash}{591b522d7625237b02833f38d690007d}
+      \strng{fullhashraw}{591b522d7625237b02833f38d690007d}
+      \strng{bibnamehash}{591b522d7625237b02833f38d690007d}
+      \strng{authorbibnamehash}{591b522d7625237b02833f38d690007d}
+      \strng{authornamehash}{591b522d7625237b02833f38d690007d}
+      \strng{authorfullhash}{591b522d7625237b02833f38d690007d}
+      \strng{authorfullhashraw}{591b522d7625237b02833f38d690007d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Análisis crítico de textos visuales. Mirar lo que nos mira}
+      \field{year}{2007}
+    \endentry
+    \entry{Perez2010}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c33333fb245a4fed33ec2e6b1d312c56}{%
+           family={Pérez},
+           familyi={P\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ae94946d28db383b62f9aef8fdaa2bd}{%
+           family={Buck-Morss},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1aba3c01a49471d3ffb3e68562a0e5dd}
+      \strng{fullhash}{1aba3c01a49471d3ffb3e68562a0e5dd}
+      \strng{fullhashraw}{1aba3c01a49471d3ffb3e68562a0e5dd}
+      \strng{bibnamehash}{1aba3c01a49471d3ffb3e68562a0e5dd}
+      \strng{authorbibnamehash}{1aba3c01a49471d3ffb3e68562a0e5dd}
+      \strng{authornamehash}{1aba3c01a49471d3ffb3e68562a0e5dd}
+      \strng{authorfullhash}{1aba3c01a49471d3ffb3e68562a0e5dd}
+      \strng{authorfullhashraw}{1aba3c01a49471d3ffb3e68562a0e5dd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pensar con imágenes: Susan Buck-Morss}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb http://www.letrasenlinea.cl/?p=530
+      \endverb
+      \verb{url}
+      \verb http://www.letrasenlinea.cl/?p=530
+      \endverb
+    \endentry
+    \entry{Warburg2010}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f79bb67b628e06ba1a61eac9bfd4638d}{%
+           family={Warburg},
+           familyi={W\bibinitperiod},
+           given={Aby},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2509879ede56ae2c05cccfb3ffa4c21a}{%
+           family={Mielke},
+           familyi={M\bibinitperiod},
+           given={Juan\bibnamedelima Chamorro},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Akal}%
+      }
+      \strng{namehash}{0079d6fa3e9416d9109de0df5d31f2c9}
+      \strng{fullhash}{0079d6fa3e9416d9109de0df5d31f2c9}
+      \strng{fullhashraw}{0079d6fa3e9416d9109de0df5d31f2c9}
+      \strng{bibnamehash}{0079d6fa3e9416d9109de0df5d31f2c9}
+      \strng{authorbibnamehash}{0079d6fa3e9416d9109de0df5d31f2c9}
+      \strng{authornamehash}{0079d6fa3e9416d9109de0df5d31f2c9}
+      \strng{authorfullhash}{0079d6fa3e9416d9109de0df5d31f2c9}
+      \strng{authorfullhashraw}{0079d6fa3e9416d9109de0df5d31f2c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Atlas Mnemosyne}
+      \field{year}{2010}
+    \endentry
+    \entry{DidiHuberman2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6048af6cff475fc5408e23fba20cc8e7}{%
+           family={Didi-Huberman},
+           familyi={D\bibinithyphendelim H\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Adriana Hidalgo editora}%
+      }
+      \strng{namehash}{6048af6cff475fc5408e23fba20cc8e7}
+      \strng{fullhash}{6048af6cff475fc5408e23fba20cc8e7}
+      \strng{fullhashraw}{6048af6cff475fc5408e23fba20cc8e7}
+      \strng{bibnamehash}{6048af6cff475fc5408e23fba20cc8e7}
+      \strng{authorbibnamehash}{6048af6cff475fc5408e23fba20cc8e7}
+      \strng{authornamehash}{6048af6cff475fc5408e23fba20cc8e7}
+      \strng{authorfullhash}{6048af6cff475fc5408e23fba20cc8e7}
+      \strng{authorfullhashraw}{6048af6cff475fc5408e23fba20cc8e7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ante el tiempo. Historia del arte y anacronismo de las imágenes}
+      \field{year}{2011}
+    \endentry
+    \entry{Guasch2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ac8f9a0d26be5feff58342e44cf18f9}{%
+           family={Guasch},
+           familyi={G\bibinitperiod},
+           given={Anna\bibnamedelima Maria},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Akal/Arte Contemporáneo}%
+      }
+      \strng{namehash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{fullhash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{fullhashraw}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{bibnamehash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{authorbibnamehash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{authornamehash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{authorfullhash}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \strng{authorfullhashraw}{4ac8f9a0d26be5feff58342e44cf18f9}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Arte y Archivo, 1920-2010. Genealogías, Tipologías y Discontinuidades}
+      \field{year}{2011}
+    \endentry
+    \entry{Gongora2013}{book}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=1da3b60eea9391e784e2d284ef40cb54}{%
+           family={Góngora},
+           familyi={G\bibinitperiod},
+           given={Amparo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7542f73234c9b19dd0da6a148eb1e839}{%
+           family={Fergusson},
+           familyi={F\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4481072c7de8cd5fd779f45b47cd3938}{%
+           family={Borja},
+           familyi={B\bibinitperiod},
+           given={Rubén},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16e38e85e9fe8c96f15eed5fa6e5e707}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Marisol},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f40cb75be450b0d0821c6e09aa69e78e}{%
+           family={Arias},
+           familyi={A\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{78040ae6f9f5ec4b8f09e703efde5088}
+      \strng{fullhash}{91d779a8078a76d5868d250f62c24737}
+      \strng{fullhashraw}{91d779a8078a76d5868d250f62c24737}
+      \strng{bibnamehash}{78040ae6f9f5ec4b8f09e703efde5088}
+      \strng{authorbibnamehash}{78040ae6f9f5ec4b8f09e703efde5088}
+      \strng{authornamehash}{78040ae6f9f5ec4b8f09e703efde5088}
+      \strng{authorfullhash}{91d779a8078a76d5868d250f62c24737}
+      \strng{authorfullhashraw}{91d779a8078a76d5868d250f62c24737}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El San Juan Muere de Pie: la vida social de un hospital y la construcción de una causa}
+      \field{year}{2013}
+    \endentry
+    \entry{IDARTES2015}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c1a24ef294713322533d5e4f23a1add4}{%
+           family={Artes\bibnamedelimb -\bibnamedelima IDARTES},
+           familyi={A\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={Instituto\bibnamedelima Distrital},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0,
+           prefix={de\bibnamedelima las},
+           prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{c1a24ef294713322533d5e4f23a1add4}
+      \strng{fullhash}{c1a24ef294713322533d5e4f23a1add4}
+      \strng{fullhashraw}{c1a24ef294713322533d5e4f23a1add4}
+      \strng{bibnamehash}{c1a24ef294713322533d5e4f23a1add4}
+      \strng{authorbibnamehash}{c1a24ef294713322533d5e4f23a1add4}
+      \strng{authornamehash}{c1a24ef294713322533d5e4f23a1add4}
+      \strng{authorfullhash}{c1a24ef294713322533d5e4f23a1add4}
+      \strng{authorfullhashraw}{c1a24ef294713322533d5e4f23a1add4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Published on Mar 25, 2015}
+      \field{title}{Programación Cumbre Mundial de Arte y Cultura para la Paz de Colombia}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://issuu.com/idartes/docs/programaci__n_cumbre_arte_cultura_i
+      \endverb
+      \verb{url}
+      \verb https://issuu.com/idartes/docs/programaci__n_cumbre_arte_cultura_i
+      \endverb
+    \endentry
+    \entry{Orlando2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d85b12a78ae6e0d1c238a5f80f3590d5}{%
+           family={Daniel\bibnamedelima Orlando},
+           familyi={D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Edwin\bibnamedelima Rey},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=226f97f915ccd1c547f549e1aaacebe9}{%
+           family={Caicedo},
+           familyi={C\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{445ada8a1fd973cdead950551f91f152}
+      \strng{fullhash}{445ada8a1fd973cdead950551f91f152}
+      \strng{fullhashraw}{445ada8a1fd973cdead950551f91f152}
+      \strng{bibnamehash}{445ada8a1fd973cdead950551f91f152}
+      \strng{authorbibnamehash}{445ada8a1fd973cdead950551f91f152}
+      \strng{authornamehash}{445ada8a1fd973cdead950551f91f152}
+      \strng{authorfullhash}{445ada8a1fd973cdead950551f91f152}
+      \strng{authorfullhashraw}{445ada8a1fd973cdead950551f91f152}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IM-Pertinente}
+      \field{number}{1}
+      \field{title}{Hospital San Juan de Dios: fenómeno de resistencia urbana}
+      \field{volume}{3}
+      \field{year}{2015}
+      \field{pages}{91\bibrangedash 111}
+      \range{pages}{21}
+      \verb{urlraw}
+      \verb https://revistas.lasalle.edu.co/index.php/im/article/view/4442
+      \endverb
+      \verb{url}
+      \verb https://revistas.lasalle.edu.co/index.php/im/article/view/4442
+      \endverb
+    \endentry
+    \entry{Castiblanco2017}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cee3718b227a777de25a8f61ea0d6bd0}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={Stephanie\bibnamedelima Castiblanco},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Universidad de los Andes}%
+      }
+      \strng{namehash}{cee3718b227a777de25a8f61ea0d6bd0}
+      \strng{fullhash}{cee3718b227a777de25a8f61ea0d6bd0}
+      \strng{fullhashraw}{cee3718b227a777de25a8f61ea0d6bd0}
+      \strng{bibnamehash}{cee3718b227a777de25a8f61ea0d6bd0}
+      \strng{authorbibnamehash}{cee3718b227a777de25a8f61ea0d6bd0}
+      \strng{authornamehash}{cee3718b227a777de25a8f61ea0d6bd0}
+      \strng{authorfullhash}{cee3718b227a777de25a8f61ea0d6bd0}
+      \strng{authorfullhashraw}{cee3718b227a777de25a8f61ea0d6bd0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The San Juan de Dios Hospital in Bogota was shut down in 2001, but its workers have rescued the place as a symbol of struggle and resistance, thanks to their demonstrations mediated by emotions, the re-significations of the surroundings, the work of caretaking and the struggle entailed in their everyday practice. This article, which is the product of an ethnographic study, indicates and analyses the reasons why the hospital was closed, the motives and objectives of the workers’ struggle, and above all else, it highlights the importance of emotions in the development of their resistance movement, to show the relevance of emotions in socio-political movements, which is the purpose of this text.}
+      \field{issn}{0123-885X}
+      \field{journaltitle}{Revista de estudios sociales (Bogotá, Colombia)}
+      \field{title}{El hospital enfermo: análisis de la lucha de los trabajadores del Hospital San Juan de Dios en Bogotá (Colombia)}
+      \field{volume}{62}
+      \field{year}{2017}
+      \field{pages}{102\bibrangedash 113}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb https://doi.org/10.7440/res62.2017.10
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.7440/res62.2017.10
+      \endverb
+      \keyw{Emotions ; Health Equity}
+    \endentry
+    \entry{VegaArevalo2017}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bf697127981ae6be76e148017134a30e}{%
+           family={Vega\bibnamedelima Arévalo},
+           familyi={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Cristian\bibnamedelima Camilo},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bf697127981ae6be76e148017134a30e}
+      \strng{fullhash}{bf697127981ae6be76e148017134a30e}
+      \strng{fullhashraw}{bf697127981ae6be76e148017134a30e}
+      \strng{bibnamehash}{bf697127981ae6be76e148017134a30e}
+      \strng{authorbibnamehash}{bf697127981ae6be76e148017134a30e}
+      \strng{authornamehash}{bf697127981ae6be76e148017134a30e}
+      \strng{authorfullhash}{bf697127981ae6be76e148017134a30e}
+      \strng{authorfullhashraw}{bf697127981ae6be76e148017134a30e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{En el presente trabajo, hicimos un rastreo por tres de las principales obras de George Didi-Huberman: Ante la imagen, Ante el tiempo y La imagen supervivente. Rastreamos las variaciones de las concepciones de historia del arte e imagen, viendo cómo se complejizaban a lo largo de las tres obras y formulaban la propuesta del franc��s de pensar la imagen desde un conocimiento sobredeterminado.}
+      \field{title}{Del trozo a la supervivencia las transformaciones de las nociones de historia del arte y de imagen en Georges Didi-Huberman}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://hdl.handle.net/10554/38465
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/10554/38465
+      \endverb
+    \endentry
+    \entry{Leavy2018}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6c8fd9dde259fb5ad8ca2fa1574671c}{%
+           family={Leavy},
+           familyi={L\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c6c8fd9dde259fb5ad8ca2fa1574671c}{%
+           family={Leavy},
+           familyi={L\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Guilford Press}%
+      }
+      \strng{namehash}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{fullhash}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{fullhashraw}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{bibnamehash}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{authorbibnamehash}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{authornamehash}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{authorfullhash}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{authorfullhashraw}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{editorbibnamehash}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{editornamehash}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{editorfullhash}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \strng{editorfullhashraw}{c6c8fd9dde259fb5ad8ca2fa1574671c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of Arts-Based Research}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.guilford.com/books/Handbook-of-Arts-Based-Research/Patricia-Leavy/9781462521951/contents
+      \endverb
+      \verb{url}
+      \verb https://www.guilford.com/books/Handbook-of-Arts-Based-Research/Patricia-Leavy/9781462521951/contents
+      \endverb
+    \endentry
+    \entry{Aliaga2022}{book}{}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=64478aa00e32739ebe6d52db0a6d216e}{%
+           family={Sáez},
+           familyi={S\bibinitperiod},
+           given={Francisco\bibnamedelima Aliaga},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Santo Tomás}%
+      }
+      \strng{namehash}{64478aa00e32739ebe6d52db0a6d216e}
+      \strng{fullhash}{64478aa00e32739ebe6d52db0a6d216e}
+      \strng{fullhashraw}{64478aa00e32739ebe6d52db0a6d216e}
+      \strng{bibnamehash}{64478aa00e32739ebe6d52db0a6d216e}
+      \strng{editorbibnamehash}{64478aa00e32739ebe6d52db0a6d216e}
+      \strng{editornamehash}{64478aa00e32739ebe6d52db0a6d216e}
+      \strng{editorfullhash}{64478aa00e32739ebe6d52db0a6d216e}
+      \strng{editorfullhashraw}{64478aa00e32739ebe6d52db0a6d216e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{INVESTIGACIÓN SENSIBLE Metodologías para el estudio de imaginarios y representaciones sociales}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://repository.usta.edu.co/handle/11634/46328
+      \endverb
+      \verb{url}
+      \verb https://repository.usta.edu.co/handle/11634/46328
+      \endverb
+    \endentry
+    \entry{IDPC_SanJuanDeDios}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c60a8bf98b143495b08bf9de16bf5f65}{%
+           family={{Instituto Distrital de Patrimonio Cultural}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{c60a8bf98b143495b08bf9de16bf5f65}
+      \strng{fullhash}{c60a8bf98b143495b08bf9de16bf5f65}
+      \strng{fullhashraw}{c60a8bf98b143495b08bf9de16bf5f65}
+      \strng{bibnamehash}{c60a8bf98b143495b08bf9de16bf5f65}
+      \strng{authorbibnamehash}{c60a8bf98b143495b08bf9de16bf5f65}
+      \strng{authornamehash}{c60a8bf98b143495b08bf9de16bf5f65}
+      \strng{authorfullhash}{c60a8bf98b143495b08bf9de16bf5f65}
+      \strng{authorfullhashraw}{c60a8bf98b143495b08bf9de16bf5f65}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2023-12-10}
+      \field{title}{En el corazón del San Juan de Dios}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://idpc.gov.co/sanjuandedios/
+      \endverb
+      \verb{url}
+      \verb https://idpc.gov.co/sanjuandedios/
+      \endverb
+    \endentry
+    \entry{Mitchell2005}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=91ea7a266d882fc081f4b949f0446d65}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={W.J.T.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=4683d7d9e4a233d8374030c2ec3f335b}{%
+           family={Fresneda},
+           familyi={F\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{91ea7a266d882fc081f4b949f0446d65}
+      \strng{fullhash}{91ea7a266d882fc081f4b949f0446d65}
+      \strng{fullhashraw}{91ea7a266d882fc081f4b949f0446d65}
+      \strng{bibnamehash}{91ea7a266d882fc081f4b949f0446d65}
+      \strng{authorbibnamehash}{91ea7a266d882fc081f4b949f0446d65}
+      \strng{authornamehash}{91ea7a266d882fc081f4b949f0446d65}
+      \strng{authorfullhash}{91ea7a266d882fc081f4b949f0446d65}
+      \strng{authorfullhashraw}{91ea7a266d882fc081f4b949f0446d65}
+      \strng{translatorbibnamehash}{4683d7d9e4a233d8374030c2ec3f335b}
+      \strng{translatornamehash}{4683d7d9e4a233d8374030c2ec3f335b}
+      \strng{translatorfullhash}{4683d7d9e4a233d8374030c2ec3f335b}
+      \strng{translatorfullhashraw}{4683d7d9e4a233d8374030c2ec3f335b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-607-9216-11-5}
+      \field{note}{Todos los textos han sido traducidos del inglés. Texto original publicado en MITCHELL, W. J. T.; October, Vol. 77 (Verano 1996), pp. 71-82.}
+      \field{title}{¿Qué quieren realmente las imágenes?}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
