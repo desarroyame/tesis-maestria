@@ -42,5 +42,6 @@ docs/*.lof
 docs/*.lot
 docs/*.fls
 docs/*.fdb_latexmk
+docs/main.bbl-SAVE-ERROR
 
 draft/*
