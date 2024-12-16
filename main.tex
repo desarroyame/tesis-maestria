@@ -1,9 +1,12 @@
-\documentclass[Times,12pt,oneside,openany,print,index]{report}
+\documentclass[12pt,oneside,openany,print,index]{report}
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{csquotes}
 \usepackage{amsmath}
+\usepackage{listings}
+\lstset{breaklines=true}
+
 \pagestyle{plain}
 
 \usepackage{graphicx}
@@ -86,11 +89,13 @@
 \chapter{Patrones simbólicos en crisis}
 \input{chapters/chapter_4.tex}
 
-\chapter{Cinco}
+\chapter{La imagen como síntoma}
 \input{chapters/chapter_5.tex}
 
-\chapter{Seis}
+\chapter{Escenificación: montaje de imágenes}
 \input{chapters/chapter_6.tex}
+
+\addtocontents{toc}{\vskip10pt\hfill\textbf{|}\hfill\vskip10pt}
 
 \listoffigures
 \listoftables   
@@ -102,6 +107,17 @@
 \phantomsection
 \addcontentsline{toc}{chapter}{Videografía}
 \printbibliography[title={Videografía}, type=online]
+
+\addtocontents{toc}{\vskip10pt\hfill\textbf{|}\hfill\vskip10pt}
+
+\footnotesize
+\appendix
+\chapter{Apéndice - Entrevista a Juan Camilo Ahumada}
+\input{appendices/appendix_A.tex}
+
+\chapter{Apéndice - Tabla de corpus imágenes}
+\input{appendices/appendix_B.tex}
+\normalsize
 
 \chapter*{}
 
