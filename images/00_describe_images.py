@@ -11,7 +11,7 @@ client = anthropic.Anthropic(
     api_key=os.environ.get("ANTHROPIC_API_KEY"),
 )
 
-image_path = "./Jenniffer Duarte didacticos sala de espera.png"
+image_path = "./si no hay justicia hay performance.jpg"
 
 with Image.open(image_path) as img:
     img_format = img.format
