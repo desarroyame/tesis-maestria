@@ -45,3 +45,5 @@ docs/*.fdb_latexmk
 docs/main.bbl-SAVE-ERROR
 
 draft/*
+docs/._main.pdf
+docs/._main.pdf
