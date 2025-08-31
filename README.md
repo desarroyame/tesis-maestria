@@ -57,18 +57,29 @@ tesis-maestria/
 | **Capítulo 5**        | Metodología analítica: estructura dialógica y categorización de escenas, signos y símbolos. Ética y subjetividad en el análisis.          |
 | **Capítulo 6**        | Conclusiones sobre el montaje, escenificación, anacronismos y aportes metodológicos para el análisis visual y sociocomunicativo.          |
 
-## Breves notas técnicas para LaTeX
+## Compilación del Proyecto
 
-- El proyecto usa `main.tex` como archivo de entrada principal; allí se incluyen todos los capítulos, apéndices y bibliografía.
-- Es recomendable utilizar `latexmk` para compilar el proyecto de forma automática y gestionar referencias actualizadas.
-- Para compilar:  
+El sistema utiliza Make para automatizar la compilación y gestión de archivos PDF en el directorio `docs/`. Las funciones disponibles y el funcionamiento son:
+
+- **Compilar la tesis principal:**
   ```bash
-  latexmk -pdf main.tex
+  make main
   ```
-- Si realizas cambios en cualquier capítulo, apéndice, imagen o archivo de bibliografía, vuelve a ejecutar la instrucción anterior para generar el PDF actualizado.
+- **Compilar el artículo académico:**
+  ```bash
+  make paper
+  ```
+- **Compilar ambos (tesis y artículo):**
+  ```bash
+  make all
+  ```
+- **Limpieza básica (archivos temporales):**
+  ```bash
+  make clean
+  ```
+- **Limpieza avanzada (todos los archivos generados):**
+  ```bash
+  make cleanall
+  ```
 
----
-
-**Autor:** Juan Carlos Arroyo Sosa  
-**Maestría:** Diseño y Creación Interactiva  
-**Universidad:** [Información institucional aquí]
+Si `latexmk` está disponible en tu sistema, este se encargará automáticamente de la compilación y actualización de referencias. Si no, el Makefile usará el método manual con `pdflatex` y `biber` ¡no olvides revisar la carpeta `docs/` para tus PDF generados y finales!
