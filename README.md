@@ -1,102 +1,74 @@
-# Thesis LaTeX Project
+# Tesis de Maestría  
+*Hospital San Juan de Dios y la imagen-síntoma*
 
-Este repositorio contiene la estructura de un proyecto de tesis escrito en LaTeX, con herramientas de compilación automática utilizando Make.
-
-## Estructura del Proyecto
+## Estructura jerárquica del proyecto
 
 ```
-.
-├── LICENSE                # Licencia del proyecto
-├── main.tex               # Documento principal de la tesis
-├── paper.tex              # Documento de artículo académico
-├── Makefile               # Archivo para automatizar la compilación
-├── appendices/            # Apéndices de la tesis
-│   ├── appendix_A.tex
-│   └── appendix_B.tex
-├── build/                 # Archivos temporales de compilación
-├── chapters/              # Capítulos de la tesis
+tesis-maestria/
+│
+├── main.tex           # Archivo principal de compilación
+├── paper.tex          # Artículo resumido
+├── .latexmkrc         # Configuración para Latexmk
+├── .gitignore
+├── LICENSE
+├── Makefile
+├── README.md          # Este documento
+│
+├── core/              # Archivos fundamentales (portada, resumen, ética, licencia, dedicatoria)
+│   ├── titlepage.tex
+│   ├── abstract.tex
+│   ├── dedication.tex
+│   ├── ethics_statement.tex
+│   └── license.tex
+│
+├── chapters/          # Capítulos principales de la tesis
 │   ├── chapter_1.tex
 │   ├── chapter_2.tex
 │   ├── chapter_3.tex
 │   ├── chapter_4.tex
 │   ├── chapter_5.tex
 │   └── chapter_6.tex
-├── core/                  # Elementos estructurales del documento
-│   ├── abstract.tex
-│   ├── dedication.tex
-│   ├── ethics_statement.tex
-│   ├── license.tex
-│   └── titlepage.tex
-├── docs/                  # Documentos compilados en PDF
-│   ├── main.pdf
-│   └── paper.pdf
-├── draft/                 # Borradores y herramientas de trabajo
-├── images/                # Imágenes y figuras utilizadas en el documento
-└── references/            # Referencias bibliográficas
-    ├── bibliography.bib
-    └── videography.bib
+│
+├── appendices/        # Material complementario
+│   ├── appendix_A.tex
+│   └── appendix_B.tex
+│
+├── images/            # Imágenes y recursos gráficos
+│
+├── references/        # Bibliografía y videografía
+│   ├── bibliography.bib
+│   └── videography.bib
+│
+├── build/             # Archivos generados en la compilación
+├── docs/              # Documentación auxiliar (si aplica)
+└── tools/             # Utilidades para el proyecto
 ```
 
-## Requisitos
+---
 
-Para compilar este proyecto se necesitan las siguientes herramientas:
+## Capítulos y descripción breve
 
-* Sistema TeX completo (TeXLive recomendado)
-* pdflatex
-* biber (para referencias bibliográficas)
-* latexmk (opcional pero recomendado)
+| Capítulo              | Descripción                                                                                                                                |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| **Capítulo 1**        | Introducción al fenómeno de la crisis del HSJD, dinámica social e institucional. Concepto de "imagen-síntoma".                            |
+| **Capítulo 2**        | Desarrollo del marco teórico, fundamentos visuales y diálogo con autores clave; criterios para análisis de imágenes.                      |
+| **Capítulo 3**        | Lógica y metodología de lectura de imágenes, método del montaje, interpretación visual y social.                                          |
+| **Capítulo 4**        | Contexto social y visual del HSJD, entrevistas, corpus documental y artístico en la resistencia institucional.                            |
+| **Capítulo 5**        | Metodología analítica: estructura dialógica y categorización de escenas, signos y símbolos. Ética y subjetividad en el análisis.          |
+| **Capítulo 6**        | Conclusiones sobre el montaje, escenificación, anacronismos y aportes metodológicos para el análisis visual y sociocomunicativo.          |
 
-En sistemas basados en Debian/Ubuntu, puede instalarlos con:
+## Breves notas técnicas para LaTeX
 
-```bash
-sudo apt update
-sudo apt install texlive-full biber latexmk
-```
+- El proyecto usa `main.tex` como archivo de entrada principal; allí se incluyen todos los capítulos, apéndices y bibliografía.
+- Es recomendable utilizar `latexmk` para compilar el proyecto de forma automática y gestionar referencias actualizadas.
+- Para compilar:  
+  ```bash
+  latexmk -pdf main.tex
+  ```
+- Si realizas cambios en cualquier capítulo, apéndice, imagen o archivo de bibliografía, vuelve a ejecutar la instrucción anterior para generar el PDF actualizado.
 
-Para una instalación más ligera:
+---
 
-```bash
-sudo apt update
-sudo apt install texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-bibtex-extra biber latexmk
-```
-
-## Compilación del Proyecto
-
-El proyecto utiliza Make para automatizar la compilación. Los archivos PDF resultantes se generan en el directorio `docs/`.
-
-### Comandos disponibles
-
-* `make all`: Compila tanto la tesis completa (main.pdf) como el artículo académico (paper.pdf)
-* `make main`: Compila solo el documento principal de la tesis
-* `make paper`: Compila solo el artículo académico
-* `make clean`: Elimina archivos temporales de compilación pero conserva los PDF generados
-* `make cleanall`: Elimina todos los archivos generados, incluyendo los PDF
-
-### Ejemplos de uso
-
-Compilación completa:
-```bash
-make
-```
-
-Compilación de solo la tesis:
-```bash
-make main
-```
-
-Limpieza de archivos temporales:
-```bash
-make clean
-```
-
-## Archivos de salida
-
-Después de una compilación exitosa, encontrará:
-
-* `docs/main.pdf`: Documento completo de tesis
-* `docs/paper.pdf`: Artículo académico
-
-## Notas
-
-* Si `latexmk` no está disponible, el sistema utilizará automáticamente el método de compilación manual con pdflatex y biber.
-* Para incluir imágenes con nombres que contengan espacios o caracteres especiales, use comillas: `\includegraphics[width=\textwidth]{"Nombre con espacios.png"}`
+**Autor:** Juan Carlos Arroyo Sosa  
+**Maestría:** Diseño y Creación Interactiva  
+**Universidad:** [Información institucional aquí]
