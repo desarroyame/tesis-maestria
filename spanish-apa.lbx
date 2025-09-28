@@ -156,7 +156,6 @@
   beforechrist     = {{antes\space de\space Cristo}{a\adddot\space C\adddot}},
   commonera        = {{era\space com\'un}{e\adddot c\adddot}},
   beforecommonera  = {{antes\space de\space la\space era\space com\'un}{a\adddot e\adddot c\adddot}}
-  %  publication   = {{Publication}{Publication}}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -175,8 +174,8 @@
       {}%
       {\iffieldbibstring{#1}{\bibncpstring{\thefield{#1}}}{\thefield{#1}}%
        \ifboolexpr{test {\iffieldundef{#4}} and test {\iffieldundef{#3}}}
-         {}{
-         \addcomma\space}}%
+         {}
+         {\addcomma\space}}%
     \iffieldundef{#2}% YEARDIVISION
       {}%
       {\iffieldundef{#1}%
@@ -207,7 +206,8 @@
        \iffieldbibstring{#2}{\bibcplstring{\thefield{#2}}}{\thefield{#2}}}%
     \iffieldundef{#4}% DAY
       {}%
-      {\stripzeros{\thefield{#4}}%\iffieldundef{#3}{}{\addspace de\space}}%
+      {\stripzeros{\thefield{#4}}%
+       \iffieldundef{#3}{}{\addspace de\space}}%
     \iffieldundef{#3}% MONTH
       {}%
       {\mkbibmonth{\thefield{#3}}}}%
@@ -223,12 +223,12 @@
       {\iffieldundef{#1}{} {\addcomma\addspace}%
        \iffieldbibstring{#2}{\bibcplstring{\thefield{#2}}}{\thefield{#2}}}%
     \iffieldundef{#4}% DAY
-      {}%{el\addspace\stripzeros{\thefield{#4}}}% (Upstream variant simplified)
+      {}%
       {el\addspace\stripzeros{\thefield{#4}}}%
     \iffieldundef{#3}% MONTH
       {\addspace{en}\addspace}%
       {\iffieldundef{#4}{en\addspace}{\addspace{de}\addspace}%
-       \mkbibmonth{\thefield{#3}}{\addspace{de}\addspace}}%
+       \mkbibmonth{\thefield{#3}}\addspace{de}\addspace}%
     \iffieldundef{#1}{} {\iffieldundef{#2}{} {\addspace}%
        \iffieldbibstring{#1}{\bibstring{\thefield{#1}}}{\thefield{#1}}}}}
 

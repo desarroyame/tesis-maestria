@@ -44,8 +44,13 @@
 % Estilo de referencias APA
 \usepackage[backend=biber,style=apa,sorting=nyt,language=spanish]{biblatex}
 \DeclareLanguageMapping{spanish}{spanish-apa}
-% Workaround: early definition in case apa.bbx \AtEndPreamble hook fails
-\providecommand{\datecircaprint}{\bibstring{circa}\printdelim{datecircadelim}}
+% Improved workaround for datecircaprint
+\AtBeginDocument{%
+  \providecommand{\datecircaprint}{%
+    \ifcsdef{bibstring}{\bibstring{circa}}{\textit{circa}}%
+    \ifcsdef{printdelim}{\printdelim{datecircadelim}}{}%
+  }%
+}
 \addbibresource{references/bibliography.bib}
 \addbibresource{references/videography.bib}
 
@@ -64,13 +69,6 @@
 \renewcommand{\listtablename}{Lista de Tablas}
 
 \begin{document}
-\show\datecircaprint % DIAG: show definition status in log
-\show\ifdatecirca % DIAG: show ifdatecirca conditional
-\show\biblcstring % DIAG: show biblcstring
-\show\printdelim % DIAG: show printdelim
-
-% Safe redefinition avoiding \biblcstring (use \bibstring instead if not yet initialised)
-\renewcommand{\datecircaprint}{\ifdatecirca{\bibstring{circa}\printdelim{datecircadelim}}{}} % TEMP PATCH
 
 % Interlineado doble global
 \doublespacing
@@ -129,21 +127,13 @@
 \addtocontents{toc}{\vskip10pt\hfill\textbf{|}\hfill\vskip10pt}
 
 \clearpage
-\phantomsection
-\addcontentsline{toc}{chapter}{Lista de Figuras}
 \listoffigures
-
-\clearpage
-\phantomsection
-\addcontentsline{toc}{chapter}{Lista de Tablas}
 \listoftables   
 
 \phantomsection
-\addcontentsline{toc}{chapter}{Bibliografía}
 \printbibliography[title={Bibliografía}, nottype=online]
 
 \phantomsection
-\addcontentsline{toc}{chapter}{Videografía}
 \printbibliography[title={Videografía}, type=online]
 
 \addtocontents{toc}{\vskip10pt\hfill\textbf{|}\hfill\vskip10pt}
