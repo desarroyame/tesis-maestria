@@ -1,4 +1,4 @@
-\documentclass[12pt,oneside,openany]{report} % quitadas opciones no válidas: print,index
+\documentclass[12pt,oneside,openany]{report}
 % Márgenes APA 2.54 cm
 \usepackage[a4paper,margin=2.54cm]{geometry}
 \usepackage[T1]{fontenc} % mejor codificación de fuentes para español
@@ -42,18 +42,19 @@
 \setlength{\parindent}{1.27cm}
 
 % Estilo de referencias APA
-% Requiere que el paquete biblatex-apa esté INSTALADO en MiKTeX.
-% Instale/actualice vía MiKTeX Console si aparece "Style 'apa' not found".
-\usepackage[backend=biber,style=apa,sorting=nyt]{biblatex}
-\DeclareLanguageMapping{spanish}{spanish-apa} % usa archivo local spanish-apa.lbx (añadido)
+\usepackage[backend=biber,style=apa,sorting=nyt,language=spanish]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa}
+% Workaround: early definition in case apa.bbx \AtEndPreamble hook fails
+\providecommand{\datecircaprint}{\bibstring{circa}\printdelim{datecircadelim}}
 \addbibresource{references/bibliography.bib}
 \addbibresource{references/videography.bib}
+
+% Para regenerar Tabla de contenidos tras un error: `make clean` y luego `make main` (2-3 pasadas automáticas)
 
 % Nota: Para citas con Biblatex apa, usar \parencite y \textcite.
 
 \let\cleardoublepage=\clearpage
 
-\usepackage{etoolbox}
 \AtBeginEnvironment{quote}{\small}
 % Captions en mismo tamaño y doble espacio (controlado por setspace)
 \captionsetup{font=normalsize}
@@ -63,6 +64,13 @@
 \renewcommand{\listtablename}{Lista de Tablas}
 
 \begin{document}
+\show\datecircaprint % DIAG: show definition status in log
+\show\ifdatecirca % DIAG: show ifdatecirca conditional
+\show\biblcstring % DIAG: show biblcstring
+\show\printdelim % DIAG: show printdelim
+
+% Safe redefinition avoiding \biblcstring (use \bibstring instead if not yet initialised)
+\renewcommand{\datecircaprint}{\ifdatecirca{\bibstring{circa}\printdelim{datecircadelim}}{}} % TEMP PATCH
 
 % Interlineado doble global
 \doublespacing
