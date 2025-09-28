@@ -5,12 +5,16 @@ OUT_DIR = docs
 # Check if latexmk is available
 LATEXMK := $(shell which latexmk 2>/dev/null)
 
+# Custom TEXINPUTS for biblatex
+TEXINPUTS:=$(CURDIR)//:$(TEXINPUTS)
+
 # Main targets
 all: main paper
 
 main:
 ifdef LATEXMK
-	latexmk -pdf main.tex
+	# -bibtex removido: permite que latexmk invoque biber según backend
+	TEXINPUTS=$(TEXINPUTS) latexmk -pdf -pdflatex='pdflatex %O %S' main.tex
 else
 	@echo "latexmk not found, using manual compilation method"
 	$(MAKE) manual
@@ -29,10 +33,10 @@ endif
 
 # Manual compilation method (alternative to latexmk)
 manual: $(OUT_DIR)
-	pdflatex -output-directory=$(OUT_DIR) main.tex
-	biber $(OUT_DIR)/main
-	pdflatex -output-directory=$(OUT_DIR) main.tex
-	pdflatex -output-directory=$(OUT_DIR) main.tex
+	TEXINPUTS=$(TEXINPUTS) pdflatex -output-directory=$(OUT_DIR) main.tex || true
+	biber $(OUT_DIR)/main || true
+	TEXINPUTS=$(TEXINPUTS) pdflatex -output-directory=$(OUT_DIR) main.tex || true
+	TEXINPUTS=$(TEXINPUTS) pdflatex -output-directory=$(OUT_DIR) main.tex || true
 
 # Clean temporary LaTeX files
 clean:

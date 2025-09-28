@@ -1,6 +1,7 @@
-\documentclass[12pt,oneside,openany,print,index]{report}
+\documentclass[12pt,oneside,openany]{report} % quitadas opciones no válidas: print,index
 % Márgenes APA 2.54 cm
 \usepackage[a4paper,margin=2.54cm]{geometry}
+\usepackage[T1]{fontenc} % mejor codificación de fuentes para español
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{csquotes}
@@ -32,6 +33,7 @@
 \urlstyle{same}
 
 \usepackage{microtype}
+\usepackage{lmodern} % fuentes vectoriales para evitar error microtype con tamaños sustituidos
 
 % Interlineado APA
 \usepackage{setspace}
@@ -40,8 +42,10 @@
 \setlength{\parindent}{1.27cm}
 
 % Estilo de referencias APA
-\usepackage[backend=biber,style=apa,sorting=nyt,natbib=true]{biblatex}
-\DeclareLanguageMapping{spanish}{spanish-apa}
+% Requiere que el paquete biblatex-apa esté INSTALADO en MiKTeX.
+% Instale/actualice vía MiKTeX Console si aparece "Style 'apa' not found".
+\usepackage[backend=biber,style=apa,sorting=nyt]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa} % usa archivo local spanish-apa.lbx (añadido)
 \addbibresource{references/bibliography.bib}
 \addbibresource{references/videography.bib}
 
