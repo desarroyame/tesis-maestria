@@ -83,3 +83,30 @@ El sistema utiliza Make para automatizar la compilación y gestión de archivos 
   ```
 
 Si `latexmk` está disponible en tu sistema, este se encargará automáticamente de la compilación y actualización de referencias. Si no, el Makefile usará el método manual con `pdflatex` y `biber` ¡no olvides revisar la carpeta `docs/` para tus PDF generados y finales!
+
+### Dependencias
+
+En un entorno Debian/Ubuntu puedes instalar las dependencias mínimas con:
+
+```bash
+make deps
+```
+
+Esto instalará (vía `apt-get`) los paquetes:
+
+- texlive-latex-recommended
+- texlive-latex-extra
+- texlive-fonts-recommended
+- texlive-lang-spanish
+- texlive-bibtex-extra
+- biber
+- latexmk
+
+Si no tienes privilegios de sudo, ejecuta los comandos dentro de un contenedor o pide a un administrador que los instale. En otros sistemas (macOS/Homebrew):
+
+```bash
+brew install --cask mactex-no-gui
+brew install biber
+```
+
+Para TeX Live completo (más pesado) puedes usar el instalador oficial si encuentras paquetes faltantes.

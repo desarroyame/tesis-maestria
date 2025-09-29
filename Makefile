@@ -20,6 +20,18 @@ else
 	$(MAKE) manual
 endif
 
+# Instala dependencias LaTeX mínimas en sistemas Debian/Ubuntu.
+# Uso: make deps (requiere permisos de sudo si no es root)
+deps:
+	@if command -v apt-get >/dev/null 2>&1; then \
+		 echo "Instalando paquetes LaTeX (esto puede tardar)..."; \
+		 (which sudo >/dev/null 2>&1 && sudo apt-get update || apt-get update); \
+		 (which sudo >/dev/null 2>&1 && sudo apt-get install -y --no-install-recommends texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-lang-spanish texlive-bibtex-extra biber latexmk || apt-get install -y --no-install-recommends texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-lang-spanish texlive-bibtex-extra biber latexmk); \
+		 echo "Dependencias instaladas."; \
+	else \
+		 echo "apt-get no disponible. Instala manualmente TeX Live y biber."; \
+	fi
+
 paper:
 ifdef LATEXMK
 	latexmk $(LATEXMK_FLAGS) paper.tex
