@@ -22,15 +22,6 @@
 \usepackage{xcolor}
 \definecolor{edit30sept}{HTML}{e3256b}
 
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=black,
-    filecolor=magenta,      
-    urlcolor=black,
-    citecolor=black,
-}
-\urlstyle{same}
 
 \usepackage{microtype}
 \usepackage{lmodern} % fuentes vectoriales para evitar error microtype con tamaños sustituidos
@@ -53,6 +44,23 @@
 }
 \addbibresource{references/bibliography.bib}
 \addbibresource{references/videography.bib}
+
+% Cargar hyperref casi al final para evitar que otros paquetes sobreescriban sus parches
+% y después de setspace/biblatex para preservar anclas de notas al pie.
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  filecolor=magenta,
+  urlcolor=black,
+  citecolor=black,
+  pdfauthor={Autor},
+  pdftitle={Tesis HSJD},
+  pdfsubject={Tesis de Maestría},
+  pdfcreator={LaTeX with hyperref},
+  pdfkeywords={Hospital San Juan de Dios, imagen-síntoma, memoria colectiva}
+}
+\urlstyle{same}
 
 % Para regenerar Tabla de contenidos tras un error: `make clean` y luego `make main` (2-3 pasadas automáticas)
 
