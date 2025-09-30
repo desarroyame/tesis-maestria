@@ -25,6 +25,7 @@
 *.tmp
 
 .env
+.venv/
 .DS_Store
 .vscode/*
 build/*

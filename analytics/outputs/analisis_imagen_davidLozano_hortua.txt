@@ -1,0 +1,111 @@
+ANÁLISIS DE IMAGEN: davidLozano_hortua.jpg
+============================================================
+
+La imagen muestra un campo de césped verde con varias camas de hospital distribuidas en el área. Hay varias personas sentadas en sillas blancas, algunas de ellas llevan mascarillas rojas. En el centro, hay una persona de pie sobre una de las camas, sin ropa. Al fondo, se observan árboles y una cerca que delimita el área. La iluminación es natural, probablemente de luz solar, lo que sugiere que la escena ocurre al aire libre durante el día.
+
+JSON:
+
+```json
+{
+  "entidades": [
+    {
+      "tipo": "persona",
+      "nombre": "persona sentada",
+      "confianza": 0.9,
+      "detalles": "Varias personas sentadas en sillas blancas, algunas con mascarillas rojas."
+    },
+    {
+      "tipo": "persona",
+      "nombre": "persona de pie",
+      "confianza": 0.9,
+      "detalles": "Persona de pie sobre una cama, sin ropa."
+    },
+    {
+      "tipo": "objeto",
+      "nombre": "cama de hospital",
+      "confianza": 0.9,
+      "detalles": "Varias camas de hospital distribuidas en el campo."
+    },
+    {
+      "tipo": "objeto",
+      "nombre": "silla",
+      "confianza": 0.9,
+      "detalles": "Sillas blancas donde están sentadas las personas."
+    },
+    {
+      "tipo": "objeto",
+      "nombre": "mascarilla",
+      "confianza": 0.9,
+      "detalles": "Mascarillas rojas usadas por algunas personas."
+    },
+    {
+      "tipo": "lugar",
+      "nombre": "campo",
+      "confianza": 0.9,
+      "detalles": "Campo de césped verde al aire libre."
+    }
+  ],
+  "elementos_visuales": {
+    "colores_principales": ["verde", "blanco", "rojo", "marrón"],
+    "composicion": "Camas distribuidas en un campo con personas sentadas en sillas.",
+    "iluminacion": "Luz natural, probablemente solar."
+  }
+}
+```
+
+JSON ESTRUCTURADO:
+{
+  "entidades": [
+    {
+      "tipo": "persona",
+      "nombre": "persona sentada",
+      "confianza": 0.9,
+      "detalles": "Varias personas sentadas en sillas blancas, algunas con mascarillas rojas."
+    },
+    {
+      "tipo": "persona",
+      "nombre": "persona de pie",
+      "confianza": 0.9,
+      "detalles": "Persona de pie sobre una cama, sin ropa."
+    },
+    {
+      "tipo": "objeto",
+      "nombre": "cama de hospital",
+      "confianza": 0.9,
+      "detalles": "Varias camas de hospital distribuidas en el campo."
+    },
+    {
+      "tipo": "objeto",
+      "nombre": "silla",
+      "confianza": 0.9,
+      "detalles": "Sillas blancas donde están sentadas las personas."
+    },
+    {
+      "tipo": "objeto",
+      "nombre": "mascarilla",
+      "confianza": 0.9,
+      "detalles": "Mascarillas rojas usadas por algunas personas."
+    },
+    {
+      "tipo": "lugar",
+      "nombre": "campo",
+      "confianza": 0.9,
+      "detalles": "Campo de césped verde al aire libre."
+    }
+  ],
+  "elementos_visuales": {
+    "colores_principales": [
+      "verde",
+      "blanco",
+      "rojo",
+      "marrón"
+    ],
+    "composicion": "Camas distribuidas en un campo con personas sentadas en sillas.",
+    "iluminacion": "Luz natural, probablemente solar."
+  }
+}
+
+Modelo usado: unknown
+Tokens utilizados: 2073
+
+Generado el: Tue Sep 30 13:33:12 UTC 2025
