@@ -45,6 +45,36 @@ docs/*.fls
 docs/*.fdb_latexmk
 docs/main.bbl-SAVE-ERROR
 
+# Archivos específicos que NO deben estar en el directorio raíz
+/main.aux
+/main.bbl
+/main.bcf
+/main.blg
+/main.fls
+/main.fdb_latexmk
+/main.log
+/main.lof
+/main.lot
+/main.out
+/main.run.xml
+/main.synctex.gz
+/main.toc
+/main.pdf
+/paper.aux
+/paper.bbl
+/paper.bcf
+/paper.blg
+/paper.fls
+/paper.fdb_latexmk
+/paper.log
+/paper.lof
+/paper.lot
+/paper.out
+/paper.run.xml
+/paper.synctex.gz
+/paper.toc
+/paper.pdf
+
 draft/*
 docs/._main.pdf
 appendices/cuenta_twitter_amigosdels.csv

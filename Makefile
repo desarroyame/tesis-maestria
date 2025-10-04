@@ -7,8 +7,8 @@ LATEXMK := $(shell which latexmk 2>/dev/null)
 # Export TEXINPUTS so latexmk & pdflatex find local mapping .lbx
 export TEXINPUTS := $(CURDIR)//:$(TEXINPUTS)
 
-PDFLATEX_FLAGS = -interaction=nonstopmode -file-line-error
-LATEXMK_FLAGS = -pdf -pdflatex='pdflatex $(PDFLATEX_FLAGS) %O %S'
+PDFLATEX_FLAGS = -interaction=nonstopmode -file-line-error -output-directory=$(OUT_DIR)
+LATEXMK_FLAGS = -pdf -outdir=$(OUT_DIR) -auxdir=$(OUT_DIR)
 
 all: main
 
@@ -55,13 +55,23 @@ clean:
 	latexmk -C paper.tex || true
 	# Borrar residuos adicionales en OUT_DIR
 	rm -f $(OUT_DIR)/*.run.xml $(OUT_DIR)/*.bcf $(OUT_DIR)/*.bbl-SAVE-ERROR
+	# Limpiar archivos temporales del directorio raíz (no deberían estar aquí)
+	rm -f main.aux main.bcf main.lof main.log main.lot main.out main.run.xml main.toc main.bbl main.blg main.fls main.fdb_latexmk main.synctex.gz
+	rm -f paper.aux paper.bcf paper.lof paper.log paper.lot paper.out paper.run.xml paper.toc paper.bbl paper.blg paper.fls paper.fdb_latexmk paper.synctex.gz
 
 cleanall: clean
 	rm -f $(OUT_DIR)/*.pdf
+
+# Regla para limpiar específicamente archivos del directorio raíz que no deberían estar ahí
+clean-root:
+	@echo "Limpiando archivos temporales del directorio raíz..."
+	rm -f main.aux main.bcf main.lof main.log main.lot main.out main.run.xml main.toc main.bbl main.blg main.fls main.fdb_latexmk main.synctex.gz main.pdf
+	rm -f paper.aux paper.bcf paper.lof paper.log paper.lot paper.out paper.run.xml paper.toc paper.bbl paper.blg paper.fls paper.fdb_latexmk paper.synctex.gz paper.pdf
+	@echo "Archivos temporales del directorio raíz eliminados."
 
 $(OUT_DIR):
 	mkdir -p $(OUT_DIR)
 
 rebuild: clean main
 
-.PHONY: all main paper manual clean cleanall rebuild
+.PHONY: all main paper manual clean cleanall clean-root rebuild
