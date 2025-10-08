@@ -1,5 +1,7 @@
-\documentclass[12pt,oneside,openany,print,index]{report}
-\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+\documentclass[12pt,oneside,openany]{report}
+% Márgenes APA 2.54 cm
+\usepackage[a4paper,margin=2.54cm]{geometry}
+\usepackage[T1]{fontenc} % mejor codificación de fuentes para español
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{csquotes}
@@ -13,36 +15,74 @@
 \graphicspath{{./images/}}
 \usepackage{caption}
 \usepackage{array}
+\usepackage{tikz}
+% Permitir tablas multipágina en apéndices
+\usepackage{longtable}
 
-\usepackage[nottoc]{tocbibind}
+\usepackage{tocbibind}
 
 \usepackage[normalem]{ulem}
+\usepackage{xcolor}
+\definecolor{edit30sept}{HTML}{e3256b}
 
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=black,
-    filecolor=magenta,      
-    urlcolor=black,
-    citecolor=black,
-}
-\urlstyle{same}
 
 \usepackage{microtype}
+\usepackage{lmodern} % fuentes vectoriales para evitar error microtype con tamaños sustituidos
 
-\setlength{\parindent}{0em}
+% Interlineado APA
+\usepackage{setspace}
 
-\usepackage[backend=biber,style=authoryear,sorting=ynt]{biblatex}
+% Sangría estándar APA 0.5 pulgadas ~ 1.27 cm
+\setlength{\parindent}{1.27cm}
+
+% Estilo de referencias APA
+\usepackage[backend=biber,style=apa,sorting=nty,language=spanish]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa}
+% Improved workaround for datecircaprint
+\AtBeginDocument{%
+  \providecommand{\datecircaprint}{%
+    \ifcsdef{bibstring}{\bibstring{circa}}{\textit{circa}}%
+    \ifcsdef{printdelim}{\printdelim{datecircadelim}}{}%
+  }%
+}
 \addbibresource{references/bibliography.bib}
 \addbibresource{references/videography.bib}
 
+% Cargar hyperref casi al final para evitar que otros paquetes sobreescriban sus parches
+% y después de setspace/biblatex para preservar anclas de notas al pie.
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  filecolor=magenta,
+  urlcolor=black,
+  citecolor=black,
+  pdfauthor={Autor},
+  pdftitle={Tesis HSJD},
+  pdfsubject={Tesis de Maestría},
+  pdfcreator={LaTeX with hyperref},
+  pdfkeywords={Hospital San Juan de Dios, imagen-síntoma, memoria colectiva}
+}
+\urlstyle{same}
+
+% Para regenerar Tabla de contenidos tras un error: `make clean` y luego `make main` (2-3 pasadas automáticas)
+
+% Nota: Para citas con Biblatex apa, usar \parencite y \textcite.
+
 \let\cleardoublepage=\clearpage
 
-\usepackage{etoolbox}
 \AtBeginEnvironment{quote}{\small}
-\captionsetup[figure]{font=footnotesize}
+% Captions en mismo tamaño y doble espacio (controlado por setspace)
+\captionsetup{font=normalsize}
+
+% Nombres de listas acorde normativa en español
+\renewcommand{\listfigurename}{Lista de Figuras}
+\renewcommand{\listtablename}{Lista de Tablas}
 
 \begin{document}
+
+% Interlineado doble global
+\doublespacing
 
 \thispagestyle{empty}
 \input{core/titlepage}
@@ -56,7 +96,7 @@
 \input{core/ethics_statement}
 
 \phantomsection
-\addcontentsline{toc}{chapter}{Resúmen}
+\addcontentsline{toc}{chapter}{Resumen}
 \input{core/abstract}
 
 \phantomsection
@@ -68,9 +108,9 @@
 \input{core/license}
 
 \renewcommand{\contentsname}{Tabla de contenidos}
+% Nota: compilar al menos 2 veces para regenerar TOC después de cambios.
 \cleardoublepage
 \phantomsection
-\addcontentsline{toc}{chapter}{Tabla de contenidos}
 \tableofcontents
 \newpage
 
@@ -97,15 +137,14 @@
 
 \addtocontents{toc}{\vskip10pt\hfill\textbf{|}\hfill\vskip10pt}
 
+\clearpage
 \listoffigures
 \listoftables   
 
 \phantomsection
-\addcontentsline{toc}{chapter}{Bibliografía}
 \printbibliography[title={Bibliografía}, nottype=online]
 
 \phantomsection
-\addcontentsline{toc}{chapter}{Videografía}
 \printbibliography[title={Videografía}, type=online]
 
 \addtocontents{toc}{\vskip10pt\hfill\textbf{|}\hfill\vskip10pt}

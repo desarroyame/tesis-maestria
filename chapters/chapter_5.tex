@@ -1,8 +1,27 @@
-A continuación, se presenta la estructura dialógica en los textos visuales seleccionados, así como la identificación sistemática de las escenas que agrupan símbolos, signos denotativos, anacronismos e imágenes-síntoma. Se desarrolla la metodología indicada, se muestra la imagen seleccionada, se incluye un párrafo descriptivo y se lleva a cabo la categorización de los elementos visuales presentes en la imagen.
+\textcolor{edit30sept}{A continuación se presenta la base estructural y conceptual que sustenta la apuesta analítica descriptiva sobre las imágenes estudiadas. En este capítulo, se expone la arquitectura de datos diseñada para organizar la información visual mediante un modelo relacional de tres niveles que vincula imágenes, categorías analíticas y metadatos descriptivos, otorgando soporte técnico y epistemológico al análisis. Se establece una estructura de grafo que permite articular múltiples dimensiones semióticas y relaciones complejas entre escenas visuales, facilitando una lectura no lineal y dinámica del corpus. Así, esta configuración de datos no solo respalda la interpretación detallada de cada imagen, sino que también habilita la meta-composición estética y documental que despliega el análisis dialógico de escenas, anacronismos e imágenes-síntoma.}
 
-Desde una perspectiva académica, es importante explicar que el análisis de imágenes presentado en este estudio evita deliberadamente establecer conclusiones definitivas por varias razones metodológicas y epistemológicas fundamentales:
+\section{Arquitectura de Datos y Organización Semántica}
+\textcolor{edit30sept}{La estructura de datos se fundamenta en un modelo relacional de tres niveles que vincula imágenes, categorías analíticas y metadatos descriptivos. En el nivel primario, cada imagen del corpus constituye una unidad documental discreta que contiene: (a) el archivo digital en formato optimizado para visualización web, (b) metadatos técnicos de catalogación (fecha, procedencia, condiciones de captura), y (c) referencias cruzadas a otras imágenes mediante identificadores únicos.}
 
-En primer lugar, el análisis reconoce que las imágenes poseen una naturaleza dialéctica y anacrónica que resiste las interpretaciones unívocas. Las imágenes, como síntomas de procesos sociales e históricos complejos, demandan una aproximación que privilegie la apertura interpretativa por sobre la clausura del sentido, busca generar conocimiento a través de la yuxtaposición y el diálogo entre imágenes, más que mediante la imposición de significados predeterminados.
+\textcolor{edit30sept}{El segundo nivel corresponde a la capa de categorización semiótica, donde cada imagen se relaciona con múltiples taxonomías simultáneas: símbolos identificados según su función retórica, signos denotativos que remiten a referentes específicos del contexto hospitalario, anacronismos que evidencian temporalidades superpuestas, e imágenes-síntoma que manifiestan tensiones sociohistóricas subyacentes. Esta estratificación categorial no opera mediante asignaciones excluyentes, sino que permite la sobreposición e intersección de clasificaciones, reflejando la naturaleza dialéctica del material visual.}
+
+\section{Meta-composición y Estructuras Relacionales}
+
+\textcolor{edit30sept}{La meta-composición estética y documental se materializa en una estructura de grafo donde cada nodo representa una escena visual junto con su componente textual descriptivo, mientras que las aristas codifican relaciones de diversos tipos: proximidad temática, resonancia formal, contraste dialéctico y contigüidad narrativa. Esta arquitectura nodal no prescribe trayectorias de lectura lineales, sino que habilita recorridos múltiples y emergentes determinados por la interacción del usuario con la interfaz.}
+
+\textcolor{edit30sept}{Los datos descriptivos asociados a cada imagen incluyen: un párrafo analítico-descriptivo que articula la dimensión denotativa con interpretaciones preliminares, etiquetas de categorización según las cuatro dimensiones semióticas mencionadas, y marcadores de relación con otras imágenes del conjunto. Estas asociaciones se almacenan mediante estructuras JSON anidadas que preservan la flexibilidad interpretativa característica del enfoque metodológico adoptado.}
+
+\section{Implementación Técnica y Consideraciones Epistémicas}
+
+\textcolor{edit30sept}{La implementación técnica privilegia un formato de datos que sostiene la apertura interpretativa como principio epistemológico. En lugar de bases de datos normalizadas que impondrían esquemas rígidos de significación, el sistema emplea una estructura de documentos que admiten campos variables, metadatos extensibles y relaciones no predeterminadas, permitiendo que la categorización emerja del análisis situado más que de taxonomías.}
+
+\textcolor{edit30sept}{analítico mismo: anotaciones sobre decisiones interpretativas, registro de iteraciones en la categorización, y marcas temporales que evidencian la naturaleza procesual del trabajo hermenéutico. Esta dimensión metacognitiva transforma el conjunto de datos en un archivo que reflexiona sobre sus propias operaciones documentales y estéticas.}
+
+\section{Análisis de imágenes: escenas, anacronismos e imágenes-síntoma}
+
+A continuación, se presenta la estructura dialógica en los textos visuales seleccionados, así como la identificación sistemática de las escenas que agrupan símbolos, signos denotativos, anacronismos e imágenes-síntoma. Se desarrolla la metodología indicada, se muestra la imagen seleccionada, se incluye un párrafo descriptivo y se lleva a cabo la categorización de los elementos visuales presentes en la imagen. \textcolor{edit30sept}{Con el fin de consolidar el tránsito entre el análisis y la creación de exteriencia digital interactiva, se organiza el conjunto mediante una \textit{meta-composición estética y documental}. Esta operación de segundo orden integra descripción, categorización, montaje y reescritura escénica del \textit{corpus}, de modo que cada figura y su \textit{verbatim} constituyen nodos de una composición que reflexiona sobre su propio proceso documental y estético.}
+
+Desde una perspectiva académica, es importante explicar que el análisis de imágenes presentado en este estudio evita deliberadamente establecer conclusiones definitivas por varias razones metodológicas y epistemológicas fundamentales. \textcolor{edit30sept}{Esta apertura epistémica se corresponde con la intención de no clausurar el sentido, sino escenificar su emergencia a través de cuadros, anacronismos e \textit{imágenes-síntoma},} y así, reconocer que las imágenes poseen una naturaleza dialéctica y anacrónica que resiste las interpretaciones unívocas. Las imágenes, como síntomas de procesos sociales e históricos complejos, demandan una aproximación que privilegie la apertura interpretativa por sobre la clausura del sentido, busca generar conocimiento a través de la yuxtaposición y el diálogo entre imágenes, más que mediante la imposición de significados predeterminados.
 
 Dada la naturaleza sensible del caso del Hospital San Juan de Dios y la implicación personal del investigador, el estudio adopta una postura ética que evita la pretensión de objetividad absoluta. En su lugar, propone un acercamiento poético que:
 
@@ -19,14 +38,14 @@ Esta aproximación no busca establecer verdades definitivas sino generar un espa
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\textwidth]{AlaDeriva_diaz2016_fotograma-00-34-25.png}
-    \caption{AlaDeriva diaz2016 fotograma 00:34:25}
+    \caption{A la Deriva \parencite{AlaDerivaDiaz2016} fotograma 00:34:25}
     \label{fig:AlaDeriva_diaz2016_fotograma_00_34_25}
 \end{figure}
 
-Cocina de tamaño medio, con una ventana grande que ocupa casi toda una pared. La luz natural entra por la ventana, creando sombras y contrastes en los objetos. Una persona de espaldas cocinando en una estufa. Una mesa grande cubierta de objetos, incluyendo platos sucios, bolsas, botellas y papeles. En las paredes hay cuadros y utensilios de cocina colgados. Una mesa en primer plano llena de objetos. La encimera al fondo está llena de utensilios de cocina. \parencite[fotograma: 00:34:25]{AlaDeriva_diaz2016}
+Cocina de tamaño medio, con una ventana grande que ocupa casi toda una pared. La luz natural entra por la ventana, creando sombras y contrastes en los objetos. Una persona de espaldas cocinando en una estufa. Una mesa grande cubierta de objetos, incluyendo platos sucios, bolsas, botellas y papeles. En las paredes hay cuadros y utensilios de cocina colgados. Una mesa en primer plano llena de objetos. La encimera al fondo está llena de utensilios de cocina. \parencite[fotograma: 00:34:25]{AlaDerivaDiaz2016}
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
     graph TD
     A[[Anacronismo]]
     B[[Imagen-Síntoma]]
@@ -48,10 +67,10 @@ Cocina de tamaño medio, con una ventana grande que ocupa casi toda una pared. L
     \label{fig:Citytv_junio2015_fotograma_00_00_16}
 \end{figure}
 
-Fachada de un edificio con el letrero `ORTESIS Y PROTESIS'. Hay dos ventanas visibles: una parcialmente cubierta con plástico y una prenda blanca colgando, mientras que la otra tiene una tela clara con patrones color azul. Un cintillo de noticias rojo indica: "San Juan de Dios será entregado en tres fases" y "Distrito satisfecho tras la adquisición", mostrando además la hora 7:31 y los valores del dólar y el euro. Algunas personas aparecen parcialmente visibles en la esquina inferior izquierda. \parencite[fotograma: 00:00:16]{Citytv_junio2015}
+Fachada de un edificio con el letrero `ORTESIS Y PROTESIS'. Hay dos ventanas visibles: una parcialmente cubierta con plástico y una prenda blanca colgando, mientras que la otra tiene una tela clara con patrones color azul. Un cintillo de noticias rojo indica: \textit{San Juan de Dios será entregado en tres fases} y \textit{Distrito satisfecho tras la adquisición}, mostrando además la hora 7:31 y los valores del dólar y el euro. Algunas personas aparecen parcialmente visibles en la esquina inferior izquierda. \parencite[fotograma: 00:00:16]{CitytvJunio2015}
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
     graph TD
     A[[Anacronismo]]
     B[[Imagen-Síntoma]]
@@ -73,10 +92,10 @@ Fachada de un edificio con el letrero `ORTESIS Y PROTESIS'. Hay dos ventanas vis
     \label{fig:AlaDeriva_diaz2016_fotograma_00_05_54}
 \end{figure}
 
-Exterior del HSJD carrera décima vista hacia el sur. Se observa un vehículo blindado negro tipo antimotines con equipo de dispersión de agua en el techo. En primer plano, sobre el pavimento mojado, hay una persona vestida con bata blanca. Al fondo se distingue un grupo de policías con escudos antidisturbios formando una línea, mientras un chorro de agua es disparado hacia la derecha de la escena. \parencite[fotograma: 00:05:54]{AlaDeriva_diaz2016}
+Exterior del HSJD carrera décima vista hacia el sur. Se observa un vehículo blindado negro tipo antimotines con equipo de dispersión de agua en el techo. En primer plano, sobre el pavimento mojado, hay una persona vestida con bata blanca. Al fondo se distingue un grupo de policías con escudos antidisturbios formando una línea, mientras un chorro de agua es disparado hacia la derecha de la escena. \parencite[fotograma: 00:05:54]{AlaDerivaDiaz2016}
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
     graph TD
     A[[Anacronismo]]
     B[[Imagen-Síntoma]]
@@ -101,7 +120,7 @@ Exterior del HSJD carrera décima vista hacia el sur. Se observa un vehículo bl
 Sala de espera con una fila de asientos blancos de plástico montados sobre una estructura metálica negra. La pared es de color crema claro con algunos elementos montados como un tablero y un teléfono naranja. El piso tiene un patrón geométrico en tonos beige y gris. En la escena hay una persona vestida de negro que mira hacia el suelo a lo que perece ser un marco y cristal rotos. Hay una bicicleta, un balón de fútbol y detrás de la hilera de sillas a la izquierda una puerta con letreros de `SELLADO'.
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
 graph TD
     A[[Anacronismo]]
     B[[Imagen-Síntoma]]
@@ -126,7 +145,7 @@ graph TD
 \textit{Performance}. La imagen muestra edificio San Lucas en proceso de renovación o reparación. En la primera fotografía, se observan dos personas realizando tareas en el espacio - una sentada en el suelo trabajando con herramientas, y otra de pie observando. La segunda fotografía muestra a una persona sola de espaldas en el mismo espacio, se aprecia ropa colgada en una cuerda, dando la impresión de un espacio doméstico improvisado. Las paredes desgastadas, ventanas en crudo y suelo de concreto sugieren que el edificio está en una fase inacabada o de transición. Se yuxtaponen  escenas cotidianas de trabajo y vida dentro del entorno hospitalario.
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
 graph TD
     A[[Anacronismo]]
     B[[Imagen-síntoma]]
@@ -151,7 +170,7 @@ graph TD
 Sala de cirugía, interior deteriorado, ventanales que dejan entrar luz natural, contrastando con lámparas eléctricas colgantes. En este espacio se observan personas sentados en el piso sobre colchonetas y frazadas, rodeados de ropa y objetos personales. La escena revela síntomas de de usos disruptivos de ambiente para el cuidado quirúrjico y en hábitat doméstico. Foto del libro \parencite{Hemelryck2011}
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
     graph TD
     A[[Anacronismo]]
     B[[Imagen-Síntoma]]
@@ -178,7 +197,7 @@ Sala de cirugía, interior deteriorado, ventanales que dejan entrar luz natural,
 \parencite[p. 10]{Ahumada2013}
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
 graph TD
     A[[Anacronismo]]
     B[[Imagen-Síntoma]]
@@ -203,7 +222,7 @@ graph TD
 \parencite[p. 12]{Ahumada2013}
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
     graph TD
     A[[Anacronismo]]
     B[[Imagen-Síntoma]]
@@ -230,7 +249,7 @@ graph TD
 Interior de edificio, postes de madera sosteniendo el techo sobre batas blancas y verdes apiladas. La tela se ve usada y pulcra, con arrugas y pliegues naturales.
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
     graph TD
     A[[Anacronismo]]
     B[[Imagen-Síntoma]]
@@ -256,7 +275,7 @@ Interior de edificio, postes de madera sosteniendo el techo sobre batas blancas 
 Colección de cubos apilados de madera, cada uno pintado con una letra del alfabeto y una ilustración en blanco y negro de diversos animales y partes del cuerpo humano, como cerebros y pulmones, en un estilo gráfico similar a grabados médicos antiguos. Sobres con hojas de historia clínica.
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
     graph TD
     A[[Anacronismo]]
     B[[Imagen-Síntoma]]
@@ -281,7 +300,7 @@ Colección de cubos apilados de madera, cada uno pintado con una letra del alfab
 El montaje fotográfico yuxtapone dos retratos en blanco y negro de mujeres jóvenes de épocas distintas. A la izquierda, una imagen antigua muestra una mujer con peinado y ropa de los años 50, mirando pensativa con un dedo en los labios. A la derecha, una imagen contemporánea presenta una mujer con uniforme de enfermera y gesto serio, con la mano en la barbilla en actitud reflexiva. Debajo, un texto en español conecta ambas imágenes: ``Si no hay justicia, hay performance''.
 
 \small
-\begin{verbatim}
+\singlespacing \begin{verbatim}
     graph TD
     A[[Anacronismo]]
     B[[Imagen-Síntoma]]
@@ -294,3 +313,4 @@ El montaje fotográfico yuxtapone dos retratos en blanco y negro de mujeres jóv
     B --> B2[Gesto meditativo surge ante injusticias presentes]
 \end{verbatim}
 \normalsize
+
